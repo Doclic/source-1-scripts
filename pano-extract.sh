@@ -1,6 +1,8 @@
 #!/usr/bin/bash
 # Variables
-if [ ! -v INPUT_PBIN ]; then
+if [ -v 1 ]; then
+    INPUT_PBIN="$1"
+else
     INPUT_PBIN="./code.pbin"
 fi
 
